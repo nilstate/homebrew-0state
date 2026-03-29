@@ -1,8 +1,8 @@
-# Homebrew 0state
+# Homebrew Icey
 
-Homebrew tap for 0state packages.
+Homebrew tap for Icey packages.
 
 ```bash
-brew tap nilstate/0state
+brew tap nilstate/icey
 brew install icey-server
 ```
