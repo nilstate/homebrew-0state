@@ -1,8 +1,8 @@
 class IceyServer < Formula
   desc "Self-hosted source-to-browser server built on icey"
   homepage "https://github.com/nilstate/icey-cli"
-  url "https://github.com/nilstate/icey-cli/releases/download/v0.1.1/icey-cli-0.1.1-source.tar.gz"
-  sha256 "5e9d1a98c14071473d231ce4c590988ef9852137d85b29d1d467c82d6059dd67"
+  url "https://github.com/nilstate/icey-cli/releases/download/v0.1.2/icey-cli-0.1.2-source.tar.gz"
+  sha256 "2828e706de318ea5b76ab1610166c6de379d7e8f6fe36819abb68bcf8e4acf68"
   license "AGPL-3.0-or-later"
 
   depends_on "cmake" => :build
@@ -12,8 +12,8 @@ class IceyServer < Formula
   depends_on "openssl@3"
 
   resource "icey" do
-    url "https://github.com/nilstate/icey-cli/releases/download/v0.1.1/icey-2.4.1-source.tar.gz"
-    sha256 "4a692202e2eec5ea45a2b49987c172ebccf691044b87fb9292911654c05d0ec9"
+    url "https://github.com/nilstate/icey-cli/releases/download/v0.1.2/icey-2.4.3-source.tar.gz"
+    sha256 "b8b4950b431c5e72b84e79352d14360c2a50e2716be49f40fb85dbd7defdb229"
   end
 
   def install
